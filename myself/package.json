@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build && ./shell/copyDist.sh",
+    "release": "npm run build && ./shell/copyDist.sh",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "atropos": "^2.0.2",
     "pinia": "^2.1.6",
     "vue": "^3.3.4"
   },
