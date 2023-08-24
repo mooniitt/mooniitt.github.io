@@ -13,7 +13,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14.19' # Change this to your desired Node.js version
+        node-version: '14' # Change this to your desired Node.js version
         
     - name: Install dependencies
       run: cd myself && npm install

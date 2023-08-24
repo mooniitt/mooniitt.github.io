@@ -8,7 +8,7 @@ import Avatar from './components/Avatar.vue'
   <header>
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="You did it!!!" />
       <Avatar />
     </div>
   </header>
