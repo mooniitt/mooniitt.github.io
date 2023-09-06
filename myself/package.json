@@ -6,7 +6,8 @@
     "dev": "vite",
     "release": "npm run build && node ./shell/copyDist.js",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "atropos": "^2.0.2",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.1",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "husky": "^8.0.3",
     "vite": "^4.4.9"
   }
 }
